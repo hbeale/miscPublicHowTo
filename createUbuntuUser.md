@@ -17,7 +17,7 @@ I use this on Open Stack after creating an instance and logging in as "Ubuntu".
     chmod 700 .ssh
     touch .ssh/authorized_keys
     nano !$
-    paste your public key (~/.ssh/id_rsa.pub ) and save the file
+    paste your public key (~/.ssh/id_rsa.pub on the computer you will ssh from) and save the file
     when you're done, type exit to become ubuntu again
 ### Make user sudo capable
     whoami # should be ubuntu
