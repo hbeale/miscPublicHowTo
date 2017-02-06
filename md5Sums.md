@@ -1,5 +1,12 @@
+## Generate an MD5 sum
 
-MD5 sum confirmation:
+ md5sum TCGA_pancancer_somatic_mutation_broad.maf.txt
+ 
+ output: 4ae1b6902bed73d7faaaa2e8ab5809f9  TCGA_pancancer_somatic_mutation_broad.maf.txt
+
+
+
+## Confirm MD5 sum:
 
 on FTP server:
 md5sum bcbioWgsGRCh37ref.tgz
